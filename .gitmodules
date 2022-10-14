@@ -1,0 +1,3 @@
+[submodule "lab-food-library"]
+	path = lab-food-library
+	url = https://github.com/IvanovSvyatoslav/lab-food-library.git
