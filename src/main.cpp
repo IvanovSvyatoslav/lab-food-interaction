@@ -1,8 +1,6 @@
 #include "../lab-food-library/src/food_containment.h"
 
 int main() {
-  food_containment::FridgeBuilder builder;
-  auto fridge = builder.AddDefaultItems().Build();
-  fridge->PrintFridge();
+  food_containment::FridgeApp::GetInstance().Run();
   return 0;
 }
